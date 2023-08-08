@@ -1,8 +1,8 @@
-# **Course project: neural network for classification (Computational Neuroscience - Neuromatch Academy)**
+# **Course project: Neural Network for Classification (Computational Neuroscience - Neuromatch Academy)**
 We analyzed calcium imaging data provided within the [Allen Institute dataset](https://compneuro.neuromatch.io/projects/neurons/README.html) from visual cortices of transgenic mice in a go and no-go task where the animal had to respond to changes in image identity. In the *detectingExpectations.ipynb* we used supervised learning for expectation classification. Specifically, we implemented a feedforward neural network to classify the presented stimuli, which were 8 images and an omitted image (no-go trials). The goal was then to compare classification accuracies for excitatory and inhibitory populations.
 
 Network structure:	
-- Shape: [268(exc)/66(inh), 64, 32, 9]
+- Shape: [268(exc) / 66(inh), 64, 32, 9]
 - Fully-Connected Layers
 - ReLU
 
